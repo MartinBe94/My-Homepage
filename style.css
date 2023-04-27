@@ -1,0 +1,273 @@
+:root {
+    --cyan-color: #22C3E6;
+    --black-color: #0E0E0E;
+    --darkgray-color: #1E1E1E;
+    --platinum-color: #E5E4E2;
+    --middledarkgray-color: #4D4D4D;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    background: #4D4D4D;
+    background-image:url("images/codingbackground.jpg");
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-attachment: flex;
+    background-position: center center;
+}
+
+.icon .fas
+{
+   color:  #1E1E1E;
+   position: absolute;
+   top:10px;
+   right:10px;
+   font-size:30px;
+   cursor: pointer;
+}
+
+
+
+.list-group
+{
+   color:  #1E1E1E;
+   cursor: pointer;
+}
+
+/* .list-group .home .about .contact
+{
+   color:  #1E1E1E;
+   cursor: pointer;
+} */
+
+
+/* .icon .fa-arrow-circle-left
+{
+   color:  #1E1E1E;
+   position: absolute;
+   top:20px;
+   right:20px;
+   font-size:50px;
+   cursor: pointer;
+} */
+
+/* .icon .list-icon
+{
+    color:  #1E1E1E;
+   position: absolute;
+
+   left:10px;
+   font-size:50px;
+   cursor: pointer;
+} */
+
+/* .sidenav
+{
+    height: 80%;
+    background-color:#E5E4E2;
+    width: 0;
+    position:fixed ;
+    top:0;
+    left:0;
+    overflow-x: hidden;
+    z-index:1;
+    padding-top: 100px;
+    transition: 0.6s;
+} */
+
+.sidenavopen
+{
+    height: 80%;
+    background-color:#E5E4E2;
+    width: 0px;
+    position:fixed ;
+    top:0;
+    left:0;
+    overflow-x: hidden;
+    z-index:1;
+    padding-top: 120px;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.sidenavclosed
+{
+    height: 80%;
+    background-color:#E5E4E2;
+    width: 50px;
+    position:fixed ;
+    top:0;
+    left:0;
+    overflow-x: hidden;
+    z-index:1;
+    padding-top: 120px;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.aboutnavopen
+{
+    height: 90%;
+    background-color:#E5E4E2;
+    width: 0px;
+    position:fixed;
+    top:0;
+    left:0;
+    overflow-x:hidden;
+    z-index:1;
+    padding-top: 120px;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+.contactnavopen
+{
+    height: 90%;
+    background-color:#E5E4E2;
+    width: 0px;
+    position:fixed;
+    top:0;
+    left:0;
+    overflow-x:hidden;
+    z-index:1;
+    padding-top: 120px;
+    transition: 0.6s;
+    border-radius: 10px;
+}
+
+/* .sidenav a
+{
+    padding:8px 8px 30px;
+    text-decoration:wavy;
+    font-size: 22px;
+    color:#1E1E1E;
+    display:block;
+    transition: 0.4s;
+} */
+
+.sidenavopen a
+{
+    padding:8px 8px 30px;
+    text-decoration:wavy;
+    font-size: 22px;
+    color:#1E1E1E;
+    display:block;
+    transition: 0.4s;
+}
+
+.sidenavclosed i
+{
+    padding:11px 11px 30px;
+    text-decoration:wavy;
+    font-size: 22px;
+    color:#1E1E1E;
+    display:block;
+    transition: 0.4s;
+}
+
+.aboutnavopen p,h1
+{
+    padding:40px;
+    text-decoration:wavy;
+    font-size: 22px;
+    color:#1E1E1E;
+}
+
+.contactnavopen h1,h3
+{
+    padding:40px;
+    text-decoration:wavy;
+    font-size: 22px;
+    color:#1E1E1E;
+}
+
+.fa-window-close
+{
+    border-radius:100px;
+}
+/* .sidenav a:hover
+{
+    background: #4D4D4D;
+
+} */
+
+.sidenavopen a:hover
+{
+    background: #4D4D4D;
+    padding: 10%;
+    border-radius: 10%;
+   
+}
+
+.sidenavclosed i:hover
+{
+    background: #4D4D4D;
+    padding-block: 15px;
+    border-radius: 100%;
+ 
+}
+
+/* .sidenav .fa-times
+{
+    color: #4D4D4D;
+    font-size: 40px;
+
+} */
+
+.sidenavopen .fa-arrow-circle-left
+{
+    color:#0E0E0E; 
+    font-size: 15px;
+
+}
+
+.sidenavclosed .fa-arrow-circle-right
+{
+    color: #0E0E0E ;
+    font-size: 15px;
+
+}
+
+
+/* .sidenav .fa-arrow-circle-left
+{
+    color: #4D4D4D;
+    font-size: 15px;
+
+} */
+/* nav{
+    background: #E5E4E2;
+    height: 500px;
+    width: 30%;
+}
+
+
+label.logo{
+    color:#0E0E0E;
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+
+nav ul li a{
+    color: #1E1E1E;
+    font-size: 17px;
+    text-transform: uppercase;
+} */
